@@ -35,36 +35,23 @@
 }
 
 body {
-  /*
-    CHALLENGE: change the background to one you like
-    */
-
   --background-image: var(--forest);
 
-  /*
-    CHALLENGE: change the main color to one you like!
-    */
   --main-color: var(--gold);
 
-  /* 
-    CHALLENGE: change the font to one you think is cool
-    */
   font-family: var(--old-style-font);
 }
 
 .grid {
-  /* 
-    BONUS CHALLENGE: adjust how many columns you'd like to have
-    */
   column-count: 3;
-  column-gap: 20px;
+  column-gap: 30px;
 }
 
 /*Images*/
 .img {
   border-width: 12px;
   border-style: solid;
-  border-image-source: var(--forest);
+  border-image-source: var(--nightsky);
   border-image-slice: 100;
   border-image-repeat: round;
   display: block;

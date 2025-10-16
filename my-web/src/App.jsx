@@ -21,8 +21,6 @@ const loadData = (options) => {
 const App = (props) => {
   let [photos, setPhotos] = useState([]);
 
-  // CHALLENGE:
-  // Change the query to one of your interests
   let [query, setQuery] = useState("magic");
   const queryInput = useRef(null);
 
@@ -78,7 +76,5 @@ const App = (props) => {
     </div>
   );
 };
-
-// CHALLENGE: add your own name and emoji to the website
 
 export default App;
