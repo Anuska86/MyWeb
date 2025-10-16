@@ -57,9 +57,21 @@ body {
     BONUS CHALLENGE: adjust how many columns you'd like to have
     */
   column-count: 3;
-  column-gap: 10px;
+  column-gap: 20px;
 }
 
+/*Images*/
 .img {
-  border-image: var(--forest) 100;
+  border-width: 12px;
+  border-style: solid;
+  border-image-source: var(--forest);
+  border-image-slice: 100;
+  border-image-repeat: round;
+  display: block;
+  width: 100%;
+}
+
+.img:hover {
+  box-shadow: 0 0 20px var(--gold);
+  transition: box-shadow 0.3s ease-in-out;
 }

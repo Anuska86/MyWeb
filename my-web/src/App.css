@@ -28,12 +28,6 @@ h1 {
 html {
   padding: 0 20px;
 }
-.img {
-  box-sizing: border-box;
-  width: 100% !important;
-  height: auto !important;
-  border: 5px solid var(--main-color);
-}
 
 .caption {
   display: none;
