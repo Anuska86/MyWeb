@@ -1,6 +1,7 @@
 import React from "react";
 import ReactDOM from "react-dom";
 import { createRoot } from "react-dom/client";
+import "./App.css";
 
 const { useState, useEffect, useRef } = React;
 const clientID = "t-FQWYk2PUt13LidWIblzu7SNd9HVOQsK3QA7Lg1Mg4";
@@ -22,7 +23,7 @@ const App = (props) => {
 
   // CHALLENGE:
   // Change the query to one of your interests
-  let [query, setQuery] = useState("");
+  let [query, setQuery] = useState("magic");
   const queryInput = useRef(null);
 
   const numberOfPhotos = 20;
